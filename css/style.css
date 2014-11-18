@@ -1,0 +1,1387 @@
+body {
+    max-width: 2000px;
+    margin: 0;
+    padding: 0;
+    min-width: 820px;
+}
+img {
+    border: 0;
+}
+.clear {
+    clear: both;
+}
+@font-face {
+    font-family: 'GloberBlack';
+    src: url('../font/GloberBlack.eot');
+    src: url('../font/GloberBlack.eot?#iefix') format('embedded-opentype'), url('../font/GloberBlack.woff') format('woff'), url('../font/GloberBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GloberBlackItalic';
+    src: url('../font/GloberBlackItalic.eot');
+    src: url('../font/GloberBlackItalic.eot?#iefix') format('embedded-opentype'), url('../font/GloberBlackItalic.woff') format('woff'), url('../font/GloberBlackItalic.ttf') format('truetype');
+    font-weight: italic;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'GloberBold';
+    src: url('../font/GloberBold.eot');
+    src: url('../font/GloberBold.eot?#iefix') format('embedded-opentype'), url('../font/GloberBold.woff') format('woff'), url('../font/GloberBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    ;
+}
+@font-face {
+    font-family: 'GloberBoldItalic';
+    src: url('../font/GloberBoldItalic.eot');
+    src: url('../font/GloberBoldItalic.eot?#iefix') format('embedded-opentype'), url('../font/GloberBoldItalic.woff') format('woff'), url('../font/GloberBoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    ;
+}
+@font-face {
+    font-family: 'GloberRegular';
+    src: url('../font/GloberRegular.eot');
+    src: url('../font/GloberRegular.eot?#iefix') format('embedded-opentype'), url('../font/GloberRegular.woff') format('woff'), url('../font/GloberRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    ;
+}
+@font-face {
+    font-family: 'GloberLight';
+    src: url('../font/GloberLight.eot');
+    src: url('../font/GloberLight.eot?#iefix') format('embedded-opentype'), url('../font/GloberLight.woff') format('woff'), url('../font/GloberLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    ;
+}
+@font-face {
+    font-family: 'GloberHeavy';
+    src: url('../font/GloberHeavy.eot');
+    src: url('../font/GloberHeavy.eot?#iefix') format('embedded-opentype'), url('../font/GloberHeavy.woff') format('woff'), url('../font/GloberHeavy.ttf') format('truetype'), url('../font/GloberHeavy.svg#GloberHeavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    ;
+}
+@font-face {
+    font-family: 'UniSansThinCaps';
+    src: url('../font/UniSansThinCaps.eot');
+    src: url('../font/UniSansThinCaps.eot?#iefix') format('embedded-opentype'), url('../font/UniSansThinCaps.woff') format('woff'), url('../font/UniSansThinCaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    ;
+}
+@font-face {
+    font-family: 'GLOBER_EXTRABOLD';
+    src: url('../font/GLOBER_EXTRABOLD.eot');
+    src: url('../font/GLOBER_EXTRABOLD.eot?#iefix') format('embedded-opentype'), url('../font/GLOBER_EXTRABOLD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    ;
+}
+@font-face {
+    font-family: 'UniSansHeavyCaps';
+    src: url('../font/UniSansHeavyCaps.eot');
+    src: url('../font/UniSansHeavyCaps.eot?#iefix') format('embedded-opentype'), url('../font/UniSansHeavyCaps.woff') format('woff'), url('../font/UniSansHeavyCaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    ;
+}
+@font-face {
+    font-family: 'GloberRegularItalic';
+    src: url('../font/GloberRegularItalic.eot');
+    src: url('../font/GloberRegularItalic.eot?#iefix') format('embedded-opentype'), url('../font/GloberRegularItalic.woff') format('woff'), url('../font/GloberRegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    ;
+}
+@font-face {
+    font-family: 'GloberSemiBold';
+    src: url('../font/GloberSemiBold.eot');
+    src: url('../font/GloberSemiBold.eot?#iefix') format('embedded-opentype'), url('../font/GloberSemiBold.woff') format('woff'), url('../font/GloberSemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    ;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 820px;
+}
+.container.baner {
+    width: 100%;
+    height: 640px;
+    min-width: 820px;
+    background: url('../img/first-bg.jpg')no-repeat scroll center 0 transparent;
+}
+.container.baner header {
+    padding: 25px 0 15px 0;
+    border-bottom: 1px solid #232426;
+}
+.container.baner header div {
+    display: inline-block;
+    float: right;
+}
+.container.baner header div span {
+    display: inline-block;
+    padding-top: 9px;
+    font-family: 'GloberLight';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'GloberLight';
+    color: #ffffff;
+}
+.container.baner header div span+span {
+    font-size: 25px;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.19);
+}
+.container.baner header div span+span+a {
+    font-family: 'GloberRegular';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 166px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 2px solid #fec418;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 18px;
+    padding: 10px 0 7px;
+    position: relative;
+    top: -5px;
+}
+.baton_bord:hover {
+    background: #fec418;
+    transition: all 1s ease 0s;
+}
+.baton_bord:not(:hover) {
+    transition: 1s;
+}
+.baton_bord:active {
+    background: #fec418;
+    color: #000!important;
+}
+.slogan {
+    margin-top: 66px;
+}
+.slogan p {
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #fec418;
+    font-size: 44px;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.19);
+}
+.slogan p+p {
+    letter-spacing: 1px;
+    text-transform: none;
+    margin-top: 17px;
+    font-family: GloberSemiBold;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.19);
+}
+.yellow_border {
+    margin: 54px auto 0;
+    width: 667px;
+    height: 154px;
+    border: 5px solid #fec418;
+}
+.yellow_border p {
+    margin: 24px 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: GloberLight;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.19);
+}
+.yellow_border p+p {
+    margin: 4px 0 0 0;
+    font-family: "GLOBER_EXTRABOLD";
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+}
+.yellow_border p+p+p {
+    margin: 16px 0 0 0;
+    font-family: GloberRegularItalic;
+    color: #fec418;
+    font-size: 19px;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.19);
+}
+@-webkit-keyframes floating {
+    0% {
+        -webkit-transform: translate3d(0, -10px, 0)
+    }
+    50% {
+        -webkit-transform: translate3d(0, 0, 0)
+    }
+    100% {
+        -webkit-transform: translate3d(0, -10px, 0)
+    }
+}
+@-moz-keyframes floating {
+    0% {
+        -moz-transform: translate3d(0, -10px, 0)
+    }
+    50% {
+        -moz-transform: translate3d(0, 0, 0)
+    }
+    100% {
+        -moz-transform: translate3d(0, -10px, 0)
+    }
+}
+@keyframes floating {
+    0% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        -moz-transform: translate3d(0, -10px, 0);
+        -ms-transform: translate3d(0, -10px, 0);
+        -o-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0)
+    }
+    50% {
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+    100% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        -moz-transform: translate3d(0, -10px, 0);
+        -ms-transform: translate3d(0, -10px, 0);
+        -o-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0)
+    }
+}
+.arrow_jump {
+    margin: 49px auto 0;
+    left: 50%;
+    bottom: 30px;
+    width: 28px;
+    height: 17px;
+    background-image: url('../img/arrow.png');
+    background-size: 28px 17px;
+    z-index: 1;
+    -webkit-animation: floating 2000ms infinite both cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -moz-animation: floating 2000ms infinite both cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation: floating 2000ms infinite both cubic-bezier(0.445, 0.05, 0.55, 0.95)
+}
+/*==================  its new second =====================*/
+
+.recept_block {
+    width: 100%;
+    height: 463px;
+    background: #fff;
+    padding-top: 37px;
+}
+.recept_block .wrapper div {
+    display: inline-block;
+    float: left;
+}
+.recept_left {
+    width: 450px;
+    padding: 0 0 0 20px;
+}
+.recept_left>h1 {
+    padding-top: 18px;
+    font-family: 'GLOBER_EXTRABOLD';
+    color: #ffab0c;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 47px;
+}
+.recept_left>h1+p {
+    font-family: 'GLOBER_EXTRABOLD';
+    color: #000000;
+    font-size: 23px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+}
+.recept_right img:hover {
+    transform: scale(1.05, 1.05);
+    transition: 0.5s;
+}
+.recept_right img:not(:hover) {
+    transition: 0.5s;
+}
+/*================== now not  second block ==============*/
+
+.container.instruction {
+    width: 100%;
+    height: 375px;
+    min-width: 820px;
+    background: #fff;
+}
+.container.instruction p {
+    margin-top: 64px;
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #ffab0c;
+    font-size: 45px;
+    font-weight: 400;
+}
+.instruction_img {
+    width: 781px;
+    margin: 0 auto;
+}
+.instruction_img span {
+    padding-top: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    font-family: GloberHeavy;
+    color: #243f50;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-right: 26px;
+}
+.instruction_img span+span {
+    margin-right: 35px;
+}
+.instruction_img span+span+span {
+    margin-right: 31px;
+}
+.instruction_img span+span+span+span {
+    margin-right: 41px;
+}
+.instruction_img span+span+span+span+span {
+    margin-right: 51px;
+}
+.instruction_img span:last-child {
+    margin-right: 0;
+}
+/*================ slider_blok1 ================*/
+
+.container.slider_block {
+    width: 100%;
+    height: 729px;
+    min-width: 820px;
+    background: #f1f1f1;
+}
+.container.slider_block .wrapper p {
+    margin: 0px 0 0 20px;
+    padding: 30px 0px 15px 20px;
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #000000;
+    font-size: 45px;
+    font-weight: 400;
+}
+.container.slider_block .wrapper p+p {
+    padding: 0px;
+    font-family: GloberLight;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    padding-bottom: 15px;
+}
+.slide_block {
+    margin: 0 0 0 20px;
+}
+.multiple-items.slick-initialized.slick-slider {
+    width: 820px;
+}
+/*========================= laptop =============== */
+
+.container.laptop {
+    position: relative;
+    width: 100%;
+    height: 499px;
+    min-width: 820px;
+    background: url('../img/1t.jpg')no-repeat scroll center 0 transparent;
+    margin-bottom: -1px;
+    padding: 57px 0 0 0;
+}
+.laptop {
+    margin: 0 auto;
+    width: 788px;
+    height: 453px;
+    background: url('../img/laptop.png')no-repeat scroll center 0 transparent;
+}
+.laptop>p {
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    font-family: GloberBlack;
+    color: #ff4141;
+    font-size: 23.17px;
+    font-weight: 400;
+    line-height: 27.805px;
+    font-family: GloberBlack;
+    padding: 46px 0 0 0;
+}
+.laptop>p span {
+    color: #000000;
+    font-size: 35.75px;
+    font-weight: 400;
+    line-height: 41.805px;
+}
+.laptop>p+p {
+    font-family: GloberHeavy;
+    color: #000000;
+    font-size: 32.07px;
+    font-weight: 700;
+    padding: 63px 0 0 0px;
+}
+.laptop input {
+    width: 430px;
+    height: 76px;
+    font-weight: 700;
+    font-family: 'GloberHeavy';
+    padding: 8px 2px 0px 11px;
+    font-size: 49px;
+    color: #000000;
+    background: rgba(234, 237, 241, 0.9);
+    background-image: none;
+    border: 1px solid rgba(234, 237, 241, 0.9);
+    border-radius: none;
+    margin-bottom: 33px;
+    margin-left: 171px;
+    margin-top: 10px;
+}
+.laptop input:focus {
+    background: rgba(234, 237, 241, 1);
+    background-image: none;
+    border: 1px solid rgba(234, 237, 241, 1);
+}
+.laptop a {
+    padding: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    width: 443px;
+    height: 40px;
+    background: url('../img/btn443t.png');
+    text-decoration: none;
+    font-family: GloberLight;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41.805px;
+}
+.laptop a:hover {
+    color: #fff;
+}
+.laptop a:active {
+    color: #fff;
+    background: url('../img/btn443ta.png');
+}
+/*========================= history =============== */
+
+.container.history {
+    width: 100%;
+    height: 595px;
+    min-width: 820px;
+    background: url('../img/2t.jpg')no-repeat scroll center 0 transparent;
+    margin-bottom: -3px;
+}
+.container.history .wrapper>p {
+    text-align: center;
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #03b4ea;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 62px;
+    margin: 0;
+}
+/*.autoplay button{
+    display: none!important;
+}
+*/
+
+.auto_slide {
+    width: 598px;
+    margin: 0px auto;
+    padding-right: 6px;
+}
+.history_slider {
+    margin: 90px 0 0 0;
+    width: 598px;
+    height: 303px;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+}
+.history_slider img {
+    text-align: center;
+    position: relative;
+    top: -49px;
+    display: block;
+    width: 98px;
+    margin: 0 auto;
+}
+.history_slider img+p {
+    margin: -35px 0 0 0;
+    text-align: center;
+    font-family: 'UniSansHeavyCaps';
+    color: #262624;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.history_slider img+p+p {
+    margin: 0 auto;
+    font-family: GloberRegular;
+    color: #262624;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 503px;
+}
+/*========================= gay bg =============== */
+
+.container.gray {
+    width: 100%;
+    height: 805px;
+    min-width: 820px;
+    background: url('../img/new_gray.png')no-repeat scroll center 0 transparent;
+    ;
+    margin-bottom: -20px;
+}
+.container.gray .wrapper>p {
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0;
+    padding-top: 68px;
+}
+.container.gray .wrapper>div {
+    float: left;
+    display: inline-block;
+}
+.container.gray .wrapper>div>p {
+    padding-top: 24px;
+    margin: 0;
+    font-family: GloberBold;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+.title_blocka {
+    height: 46px;
+}
+.container.gray .wrapper>div>p+p {
+    margin: 0;
+    text-align: center;
+    font-family: UniSansThinCaps;
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 400;
+    background: none;
+    padding-top: 14px;
+}
+.price {
+    height: 63px;
+}
+.container.gray .wrapper>div>p+p+p {
+    text-align: center;
+    font-family: GloberBold;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.container.gray .wrapper>div>p+p+p+p {
+    font-family: GloberRegular;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0px 0px 31px 33px;
+    text-align: left;
+}
+.container.gray .wrapper>div>p+p+p+p span {
+    text-transform: uppercase;
+}
+.standart {
+    background: #35485f;
+    width: 260px;
+    height: 456px;
+    margin-top: 61px;
+}
+.standart.big {
+    height: 593px;
+}
+.standart.big p+p+p {
+    margin-bottom: 30px;
+}
+.standart>p {
+    background: url('../img/colum_bg.png');
+}
+.premium {
+    background: #008cca;
+    width: 300px;
+    height: 564px;
+    margin-top: 34px;
+}
+.premium>p {
+    background: url('../img/colum_blue.png');
+}
+.container.gray .wrapper>div>a {
+    padding: 14px 0;
+    margin: 0 auto 0;
+    width: 190px;
+    height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-family: GloberRegular;
+    color: #1e1e1e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    background: url('../img/btn190.png');
+}
+.container.gray .wrapper>div>a:hover {
+    transition: all 0.2s linear;
+    color: #fff;
+}
+.container.gray .wrapper>div>a:not(:hover) {
+    transition: 1s;
+}
+.container.gray .wrapper>div>a:active {
+    transition: all 1s ease;
+    background: url('../img/btn190a.png');
+    color: #fff;
+}
+/* ======================== Client ================ */
+
+.container.client {
+    width: 100%;
+    height: 327px;
+    background: url('../img/bg_black.png');
+}
+.container.client p {
+    color: #fff;
+    text-align: center;
+    font-family: GloberHeavy;
+    font-size: 33px;
+    margin: 0;
+    padding-top: 42px;
+    padding-bottom: 14px;
+}
+.icon_info {
+    width: 820px;
+    height: 120px;
+    background: #008cca;
+    border-radius: 7px;
+}
+.icon_info img {
+    display: inline-block;
+    margin-left: -4px;
+}
+.left_yellow {
+    display: inline-block;
+    width: 127px;
+    height: 120px;
+    border-radius: 7px 0 0 7px;
+    background: #fec418;
+    position: relative;
+    top: -51px;
+}
+.icon_info .left_yellow span {
+    display: inline-block;
+    color: #1e1e1e;
+    font-size: 23px;
+    font-family: GloberHeavy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin: 51px 0 0 19px;
+    font-weight: 300;
+}
+.icon_list {
+    float: right;
+    margin: 0;
+    padding: 0 7px 0 0;
+}
+.icon_list li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding-right: 40px;
+    padding-top: 16px;
+}
+.icon_info .icon_list li p {
+    font-family: GloberBold;
+    font-size: 14px;
+    margin: 0;
+    padding: 8px 0 0 0;
+}
+.container.client a {
+    padding: 12px 0;
+    text-decoration: none;
+    font-family: 'GloberRegular';
+    font-size: 16px;
+    color: #1e1e1e;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    width: 210px;
+    height: 24px;
+    margin: 20px auto 0;
+    background: url('../img/btn210ni.png');
+}
+.container.client a:hover {
+    transition: all 0.2s linear;
+    color: #fff;
+}
+.container.client a:not(:hover) {
+    transition: 1s;
+}
+.container.client a:active {
+    background: url('../img/btn210a.png');
+}
+/*=================  container input form ==========*/
+
+.container.form {
+    width: 100%;
+    height: 575px;
+    background: #f8c137;
+}
+.container.form .wrapper>p {
+    color: #fff;
+    text-align: center;
+    font-family: GloberHeavy;
+    font-size: 37px;
+    margin: 0;
+    padding-top: 36px;
+    padding-bottom: 20px;
+}
+.icon_bg {
+    padding: 33px 0 0 0;
+    margin: 0 auto;
+    width: 782px;
+    height: 394px;
+    background: url('../img/icon_bg.png');
+}
+.icon_bg div {
+    margin: 0 auto;
+    width: 357px;
+    height: 357px;
+    background: url('../img/bg_black.png');
+}
+.icon_bg div>p {
+    margin: 0;
+    padding: 26px 0 16px 0;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    font-family: 'GloberBold';
+}
+.icon_bg div input {
+    font-weight: 700;
+    font-family: 'GloberBold';
+    width: 234px;
+    height: 50px;
+    padding: 0px 12px;
+    font-size: 18px;
+    color: #555;
+    background: rgba(60, 57, 57, 0.5);
+    background-image: none;
+    border: 1px solid rgba(60, 57, 57, 0.1);
+    border-radius: none;
+    margin-bottom: 13px;
+    margin-left: 47px;
+}
+.icon_bg div input:focus {
+    background: rgba(60, 57, 57, 1);
+    border: 1px solid #fff;
+    outline: 0px none;
+    color: #fff;
+}
+.icon_bg div a {
+    text-transform: uppercase;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: 'GloberBold';
+    color: #000;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 261px;
+    height: 17px;
+    background: url('../img/new_button.png');
+}
+.icon_bg div a:hover {
+    color: #fff;
+    transition: all 0.2s linear;
+    background: url('../img/new_button.png');
+}
+.icon_bg div a:not(:hover) {
+    transition: 2s;
+}
+.icon_bg div a:active {
+    color: #fff;
+    background: url('../img/new_button.png');
+}
+/*============= footer ================ */
+
+.footer {
+    padding: 25px 0 15px 0;
+    width: 100%;
+    height: 48px;
+    background: url('../img/bg_black.png');
+}
+.footer .wrapper div {
+    display: inline-block;
+    float: right;
+}
+.footer .wrapper div span {
+    display: inline-block;
+    padding-top: 9px;
+    font-family: 'GloberLight';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'GloberLight';
+    color: #ffffff;
+}
+.footer .wrapper div span+span {
+    font-size: 25px;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.19);
+}
+.footer .wrapper div span+span+a {
+    font-family: 'GloberRegular';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 166px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 2px solid #fec418;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 18px;
+    padding: 10px 0 8px;
+    position: relative;
+    top: -5px;
+}
+/*=========== modal ==========*/
+
+#overlay,
+#overlay1 {
+    z-index: 30;
+    position: fixed;
+    background: rgba(254, 196, 24, 0.9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+/*============ form 1==========*/
+
+#modal_form {
+    position: fixed;
+    /* чтобы окно было в видимой зоне в любом месте */
+    top: -500px;
+    /* отступаем сверху 45%, остальные 5% подвинет скрипт */
+    display: none;
+    /* в обычном состоянии окна не должно быть */
+    opacity: 0;
+    /* полностью прозрачно для анимирования */
+    z-index: 35;
+    /* окно должно быть наиболее большем слое */
+}
+.form_wrapper1 {
+    width: 507px;
+    margin: 0 auto;
+}
+.close {
+    display: block;
+    text-align: right;
+    width: 39px;
+    height: 39px;
+    float: right;
+    background: url('../img/close.png');
+}
+.close:hover {
+    opacity: 0.9;
+}
+.form_bg {
+    padding: 39px 0 0 0;
+    background: #fff;
+    width: 468px;
+    height: 452px;
+    position: relative;
+    top: 39px;
+}
+.form_bg h1 {
+    margin: 0;
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.form_bg h1+p {
+    margin: 11px 0 22px 0;
+    text-align: center;
+    font-family: GloberRegular;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.form_bg input {
+    width: 358px;
+    height: 47px;
+    padding: 3px 0px 0px 18px;
+    display: block;
+    margin: 0px 0px 11px 45px;
+    background: none repeat scroll 0% 0% #3E3E3E;
+    border: 1px solid #3E3E3E;
+    font-family: "GLOBER_EXTRABOLD";
+    color: rgba(153, 153, 153, 0.8);
+    font-size: 20px;
+    font-weight: 400;
+}
+.form_bg input:focus {
+    color: #fff;
+    outline: 0px none;
+}
+.sub1 input {
+    text-align: center;
+    padding-top: 9px;
+    margin: 20px 0 24px 45px;
+    text-transform: uppercase;
+    font-family: 'GLOBER_EXTRABOLD';
+    font-size: 16px;
+    width: 381px;
+    height: 49px;
+    border: none;
+    color: #000;
+    background: url(../img/submit1.png);
+}
+.sub1 input:hover {
+    color: #fff;
+}
+.sub1>p {
+    text-align: center;
+    font-family: GloberRegular;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.sub1>p>span {
+    font-family: GloberBold;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+/*========== form2 =============*/
+
+#modal_form2 {
+    position: fixed;
+    /* чтобы окно было в видимой зоне в любом месте */
+    top: -500px;
+    /* отступаем сверху 45%, остальные 5% подвинет скрипт */
+    display: none;
+    /* в обычном состоянии окна не должно быть */
+    opacity: 0;
+    /* полностью прозрачно для анимирования */
+    z-index: 35;
+    /* окно должно быть наиболее большем слое */
+}
+.form_wrapper2 {
+    width: 545px;
+    margin: 0 auto;
+}
+.close {
+    display: block;
+    text-align: right;
+    width: 39px;
+    height: 39px;
+    float: right;
+    background: url('../img/close.png');
+}
+.close:hover {
+    opacity: 0.9;
+}
+.form_bg2 {
+    padding: 39px 0 0 0;
+    background: #fff;
+    width: 506px;
+    height: 372px;
+    position: relative;
+    top: 39px;
+}
+.form_bg2 h1 {
+    margin: 0;
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.form_bg2 h1+p {
+    margin: 11px 0 22px 0;
+    text-align: center;
+    font-family: GloberRegular;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.form_bg2 input {
+    width: 358px;
+    height: 50px;
+    padding: 0 0 0 18px;
+    display: block;
+    margin: 0 0 11px 63px;
+    background: #3e3e3e;
+    border: 1px solid #3e3e3e;
+    font-family: 'GLOBER_EXTRABOLD';
+    color: rgba(153, 153, 153, 0.8);
+    font-size: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+}
+.form_bg2 input:focus {
+    color: #fff;
+    outline: 0px none;
+}
+.send1 {
+    text-align: center;
+    padding-top: 18px;
+    margin: 20px 0px 24px 63px;
+    text-transform: uppercase;
+    font-family: "GLOBER_EXTRABOLD";
+    font-size: 16px;
+    width: 381px;
+    height: 31px;
+    border: medium none;
+    color: #000;
+    background: url('../img/submit1.png') repeat scroll 0% 0% transparent;
+    display: block;
+    text-decoration: none;
+}
+.send1:hover {
+    color: #fff;
+}
+.send1.two {
+    margin: 20px 0px 24px 43px;
+}
+/*============= modal 3 =============*/
+
+#modal_form3,
+#modal_form4,
+#modal_form5,
+#modal {
+    position: fixed;
+    /* чтобы окно было в видимой зоне в любом месте */
+    top: -500px;
+    /* отступаем сверху 45%, остальные 5% подвинет скрипт */
+    display: none;
+    /* в обычном состоянии окна не должно быть */
+    opacity: 0;
+    /* полностью прозрачно для анимирования */
+    z-index: 35;
+    /* окно должно быть наиболее большем слое */
+}
+.form_wrapper3 {
+    width: 976px;
+}
+.form_wrapper3 div {
+    float: left;
+    display: inline-block;
+}
+.info_left {
+    padding: 10px 0 0 0;
+    position: relative;
+    top: 39px;
+    background: #008cca;
+    width: 469px;
+    height: 480px;
+}
+.info_left p {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #ffffff;
+    font-size: 38.83px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 49.438px;
+    /* Приближение из-за подстановки шрифтов */
+    transform: scale(1.391, 1.391);
+}
+.people_border {
+    padding-top: 15px;
+    margin-left: 28px;
+    width: 403px;
+    height: 263px;
+    border: 5px solid #00aae2;
+}
+.people_border>p {
+    text-transform: uppercase;
+    font-family: GloberHeavy;
+    color: #ffffff;
+    font-size: 24.45px;
+    font-weight: 400;
+    line-height: 33.617px;
+    transform: scale(1.391, 1.391);
+}
+.border_centr {
+    border-top: 5px solid #00AAE2;
+    width: 100%;
+}
+.people_border>p+div+p {
+    font-family: 'GLOBER_EXTRABOLD';
+    font-size: 18px;
+    line-height: 22px;
+    margin: 68px 0 0 0;
+}
+.people_border>p+div+p span {
+    font-family: GloberRegular;
+}
+.form_bg3 {
+    padding: 39px 0 0 0;
+    background: #fff;
+    width: 468px;
+    height: 452px;
+    position: relative;
+    top: 39px;
+}
+.form_bg3 h1 {
+    margin: 0;
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.form_bg3 h1+p {
+    margin: 11px 0 22px 0;
+    text-align: center;
+    font-family: GloberRegular;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.form_bg3 input {
+    width: 358px;
+    height: 50px;
+    padding: 0 0 0 18px;
+    display: block;
+    margin: 0 0 11px 45px;
+    background: #3e3e3e;
+    border: 1px solid #3e3e3e;
+    font-family: 'GLOBER_EXTRABOLD';
+    color: rgba(153, 153, 153, 0.8);
+    font-size: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+}
+.form_bg3 input:focus {
+    color: #fff;
+    outline: 0px none;
+}
+/*.sub3 */
+
+.send {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 9px;
+    margin: 20px 0px 24px 43px;
+    text-transform: uppercase;
+    font-family: "GLOBER_EXTRABOLD";
+    font-size: 16px;
+    width: 381px;
+    height: 19px;
+    border: medium none;
+    color: #000;
+    background: url('../img/submit1.png') repeat scroll 0% 0% transparent;
+    padding: 15px 0;
+}
+.send2,
+.send3,
+.zend5 {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 9px;
+    text-transform: uppercase;
+    font-family: "GLOBER_EXTRABOLD";
+    font-size: 16px;
+    width: 381px;
+    height: 19px;
+    border: medium none;
+    color: #000;
+    background: url('../img/submit1.png') repeat scroll 0% 0% transparent;
+    padding: 15px 0;
+    margin: 10px 0px 24px 43px;
+}
+.send,
+.send2,
+.send3,
+.zend5:hover {
+    color: #fff;
+}
+.sub3>p {
+    text-align: center;
+    font-family: GloberRegular;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.sub3>p>span {
+    font-family: GloberBold;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+/*============form 4 =============*/
+
+.info_left.two {
+    background: #212d3b;
+}
+.info_left.two>p {
+    padding-top: 3px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #fec418;
+    font-size: 38.83px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 49.438px;
+    /* Приближение из-за подстановки шрифтов */
+    transform: scale(1.391, 1.391);
+}
+.people_border.two {
+    border: 5px solid #35485f;
+}
+.people_border.two p {
+    margin-top: 59px;
+    color: #ffffff;
+    font-size: 23.01px;
+    font-weight: 400;
+    line-height: 33.617px;
+    transform: scale(1.391, 1.391);
+}
+/*================ modal 5 =========*/
+
+.info_left.two>p {
+    margin-bottom: 28px;
+    color: #fec418;
+    font-size: 38.83px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 49.438px;
+    /* Приближение из-за подстановки шрифтов */
+    transform: scale(1.391, 1.391);
+}
+.people_border.three {
+    height: 315px;
+    border: 5px solid #35485f;
+}
+.people_border.three>p {
+    margin-bottom: 42px;
+    padding-top: 7px;
+    font-size: 24.45px;
+    font-weight: 400;
+    line-height: 33.617px;
+    transform: scale(1.391, 1.391);
+}
+.border_centr.three {
+    border-top: 5px solid #35485f;
+    width: 100%;
+}
+.people_border.three>p+div+p {
+    font-family: 'GLOBER_EXTRABOLD';
+    font-size: 18px;
+    line-height: 22px;
+    margin: 68px 0 0 0;
+}
+.people_border.three>p+div+p span {
+    font-family: GloberRegular;
+}
+/* ================= thank ===========*/
+
+.thank {
+    margin: 100px auto;
+    width: 632px;
+    height: 214px;
+    background: none repeat scroll 0% 0% #FFF;
+    padding: 20px 0;
+}
+.thank .green_border {
+    margin: 0 auto;
+    width: 587px;
+    height: 205px;
+    border: 5px solid #5cc41c;
+}
+.thank .green_border>p {
+    text-align: center;
+    font-family: GloberHeavy;
+    color: #000;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 508px;
+    height: 36px;
+    text-align: center;
+    margin: 30px 0 10px 40px;
+}
+.thank .green_border>p+p {
+    margin: 0 0 10px 30px;
+    font-family: GloberRegular;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.thank .green_border>p+p+a {
+    display: block;
+    width: 141px;
+    margin: 0 auto 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "GLOBER_EXTRABOLD";
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    background: url('../img/button_smal.png') repeat scroll 0% 0% transparent;
+    padding: 15px 0 14px 0;
+    text-align: center;
+}
+.thank .green_border>p+p+a:hover {
+    color: #fff;
+}
