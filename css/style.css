@@ -637,6 +637,7 @@ img {
     background: url('../img/colum_blue.png');
 }
 .container.gray .wrapper>div>a {
+    text-decoration: none;
     padding: 14px 0;
     margin: 0 auto 0;
     width: 190px;
@@ -1091,7 +1092,7 @@ img {
     margin: 20px 0px 24px 43px;
 }
 /*============= modal 3 =============*/
-
+#modal_form6,
 #modal_form3,
 #modal_form4,
 #modal_form5,
